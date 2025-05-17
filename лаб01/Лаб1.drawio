@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.3">
+  <diagram name="Страница — 1" id="-M0b2LAnIcLKDNaMOBhy">
+    <mxGraphModel dx="1518" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iEGR4E654-4deKAS1NUU-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-1" target="iEGR4E654-4deKAS1NUU-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-1" value="Водитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-2" target="iEGR4E654-4deKAS1NUU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-2" value="Пассажир" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-3" value="Диспетчер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-4" target="iEGR4E654-4deKAS1NUU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-4" value="Владелец" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-7" value="Отследить маршрутку" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="35" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-14" value="Заказать место (для межг. тс)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.003;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="70" as="sourcePoint" />
+            <mxPoint x="170" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-17" value="Получать информацию о маршруте и поездках" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="260" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="80" as="sourcePoint" />
+            <mxPoint x="160" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-25" target="iEGR4E654-4deKAS1NUU-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-25" value="Управление маршрутами" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="270" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-3" target="iEGR4E654-4deKAS1NUU-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="60" as="sourcePoint" />
+            <mxPoint x="480" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.63;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-29" value="&lt;div&gt;Получить данные о водителе&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="350" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.627;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-25" target="iEGR4E654-4deKAS1NUU-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="810" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-31" value="Получать отчет" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="560" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-33" value="&lt;div&gt;Оплатить проезд&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="120" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.065;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="330" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-37" value="Обновить детали о поездке" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-40" value="Найти маршрут" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="90" as="sourcePoint" />
+            <mxPoint x="295" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-43" value="Получить личное расписание" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.019;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="310" as="sourcePoint" />
+            <mxPoint x="285" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-48" value="Список пассажиров с номерами для связи" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="490" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="320" as="sourcePoint" />
+            <mxPoint x="376" y="389" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.619;entryY=-0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="iEGR4E654-4deKAS1NUU-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="250" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-53" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="-90" as="sourcePoint" />
+            <mxPoint x="280" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iEGR4E654-4deKAS1NUU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="60" as="sourcePoint" />
+            <mxPoint x="660" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEGR4E654-4deKAS1NUU-56" value="Получить расписание " style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="85" width="80" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
